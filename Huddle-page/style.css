@@ -1,0 +1,200 @@
+*{
+	font-family: sans-serif;
+	padding: 0;
+	
+	
+}
+
+
+body{
+	
+	background:#8727FA;
+	background-image: url(images/bg-desktop.svg);
+	background-repeat: no-repeat;
+	background-size: auto;
+
+}
+
+
+p{
+ color: white;
+   margin: 0;
+ clear: both;
+ font-size: 18px;
+  
+  }
+
+#logo-image{
+	width: 160px;
+	margin-left: 6%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#image{
+	position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+
+}
+
+   .container {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1%;
+
+       
+      }
+      img {
+        max-width: 80%;
+        padding-top: 20px;
+        margin-left: 1%;
+
+      }
+      .image {
+        flex-basis: 40%;
+        margin-top: 4%;
+      }
+      .text {
+        font-size: 14px;
+        padding-left: 20px;
+      }
+
+    h1{
+     
+     color: white;
+     font-size: 38px;
+     margin-top: 1%;
+     padding-left: 10px;
+     padding-bottom: 10px;
+     margin-right: 2%;
+
+
+    }
+
+    .clearfix{
+    	clear: both;
+    }
+
+  button{
+  	width: 200px;
+  	border-radius: 30px;
+  	position: absolute;
+  	margin-left: 59%;
+  	bottom: 24%;
+  	background-color: #fff;
+  border: none;
+  color: #8727FA;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+ 
+  
+  }
+
+ 
+
+  button:hover{
+  width: 220px;
+  background-color:#F0EDF3;	
+}
+
+button:hover:after {
+  background-color: #F0EDF3;	
+  opacity: 1;
+  right: 10px;
+  left: 10px;
+}
+
+.fb{
+	width: 30px;
+	margin-top: 4%;
+	float: right;
+	margin-right: 10%;
+}
+
+.tw{
+	width: 30px;
+	margin-top: 4%;
+	float: right;
+}
+
+
+.ig{
+	width: 30px;
+	margin-top: 4%;
+	float: right;
+}
+
+@media all and (max-width: 500px){
+     h1{
+     
+     color: white;
+     font-size: 18px;
+     margin-top: 1%;
+     padding-left: 8px;
+     padding-bottom: 10px;
+     margin-right: 40%;
+
+
+      }
+      p{
+        color: white;
+   margin: 2%;
+ clear: both;
+ font-size: 12px;
+      }
+
+      .fb{
+  width: 15px;
+  margin-top: 40%;
+  
+  margin-right: 10%;
+}
+
+.tw{
+  width: 15px;
+  margin-top: 40%;
+
+}
+
+
+.ig{
+  width: 15px;
+  margin-top: 40%;
+ 
+}
+
+button{
+  position: relative;
+  width: 30%;
+  margin-top: 10%;
+  font-size: 12px;
+
+}
+
+button:hover{
+  width: 35%;
+  background-color:#F0EDF3;  }
+
+  button:hover:after {
+  background-color: #F0EDF3;  
+  opacity: 1;
+  right: 10px;
+  left: 10px;
+}
+
+
+}
+
+
+
+
+
